@@ -23,6 +23,7 @@ This project is built with the following technologies:
 
 ### Styling & UI
 - **[Tailwind CSS 4](https://tailwindcss.com/)** - Utility-first CSS framework for rapid UI development
+- **[Shadcn/UI](https://ui.shadcn.com/)** - Beautifully designed components built with Radix UI and Tailwind CSS
 - **[React Icons](https://react-icons.github.io/react-icons/)** - Popular icon library with IoIcons5 iconset
 
 ### Development Tools
@@ -40,6 +41,8 @@ react-user-dashboard/
 │   └── vite.svg               # Vite logo
 ├── src/
 │   ├── components/            # Reusable React components
+│   │   ├── ui/                # Shadcn/UI components
+│   │   │   └── select.tsx     # Select dropdown component
 │   │   ├── InfoItem.tsx       # Component for displaying user information items
 │   │   ├── UserCard.tsx       # Individual user card component
 │   │   ├── UserFilters.tsx    # Filter controls component
